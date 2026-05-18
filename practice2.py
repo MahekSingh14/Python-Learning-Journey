@@ -1,10 +1,9 @@
-# question on slicing
-# take input and print middle 3 charater ' last 2 character
+# take 3 food and store in a list , print list and lenth
 
-str= input("Enter the value :")
-mid= len(str)//2
-output1= str[mid-1:mid+2]
-print(output1)
+food1=input("Enter food 1 :")
+food2=input("Enter food 2 :")
+food3=input("Enter food 3 :")
 
-output2= str[-2:]
-print(output2)
+foodList=[food1,food2,food3]
+print(foodList)
+print(len(foodList))

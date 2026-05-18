@@ -1,4 +1,13 @@
-# program to take age as input and print value entered and its data type
-age= input("Enter your age :")
-print("Value entered is :", age)
-print("Data type is :", type(age))
+# Write a python program that takes a number as input and prints:
+# "Posistive" if number > 0
+# "Zero" if number==0
+# "Negative" if number <0
+
+number= int(input("Enter a number :"))
+
+if(number>0):
+    print("positive")
+elif(number==0):
+    print("zera")
+else:
+    print("negative")
