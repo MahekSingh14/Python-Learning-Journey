@@ -1,13 +1,9 @@
-# Write a python program that takes a number as input and prints:
-# "Posistive" if number > 0
-# "Zero" if number==0
-# "Negative" if number <0
+# Question : create a dictionary named marks to store marks of 3 subjects.
+#            add the subjects one by one print the final dictionary.
 
-number= int(input("Enter a number :"))
+marks= {}
+marks["Maths"]=95
+marks["English"]=91
+marks["Hindi"]=92
 
-if(number>0):
-    print("positive")
-elif(number==0):
-    print("zera")
-else:
-    print("negative")
+print(marks)
