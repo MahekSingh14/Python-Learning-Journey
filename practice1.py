@@ -1,9 +1,14 @@
-# Question : create a dictionary named marks to store marks of 3 subjects.
-#            add the subjects one by one print the final dictionary.
+# Question; 1 
+# Write a python program to print number from 1 to 10 using a while loop.
 
-marks= {}
-marks["Maths"]=95
-marks["English"]=91
-marks["Hindi"]=92
+i=1
+while (i<=10):
+    print(i)
+    i+=1
+# Question; 2
+    # Write a python program to print number from 10 down to 1 using a while loop.
 
-print(marks)
+j=10
+while(j>=1):
+    print(j)
+    j-=1

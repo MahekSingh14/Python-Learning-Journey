@@ -1,12 +1,7 @@
-# write a program that:
-# Take a sentence as input
-# Convert it to lowercase
-# Replace all space " " with underscores "_"
-# Print the new string
+# Write a python program to print all even number between 1  to 50 using a while loop.
 
-sentence= input("Enter your sentence :")
-
-sentence= sentence.lower()
-sentence= sentence.replace(" ","_")
-print("New Sring is :", sentence)
-
+i=1
+while(i<=50):
+    if(i%2==0):
+        print(i)
+    i+=1
